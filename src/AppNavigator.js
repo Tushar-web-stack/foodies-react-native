@@ -1,10 +1,11 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import Spalsh from "./screens/Spalsh";
+import Splash from './screens/Splash'; 
 import Home from "./screens/Home";
 import Search from "./screens/Search";
 import Details from "./screens/Details";
+import RecipeByCategory from "./screens/RecipeByCategory";
 
 const Stack = createStackNavigator()
 const AppNavigator = () => {
@@ -15,7 +16,7 @@ const AppNavigator = () => {
 
                 <Stack.Screen
                     name='Splash'
-                    component={Spalsh}
+                    component={Splash}
                     options={{ headerShown: false }} />
 
                 <Stack.Screen
@@ -31,6 +32,11 @@ const AppNavigator = () => {
                 <Stack.Screen
                     name='Details'
                     component={Details}
+                    options={{ headerShown: false }} />
+
+                     <Stack.Screen
+                    name='RecipeByCategory'
+                    component={RecipeByCategory}
                     options={{ headerShown: false }} />
             </Stack.Navigator>
         </NavigationContainer>
