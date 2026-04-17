@@ -2,7 +2,7 @@
 
 A modern and user-friendly food delivery mobile application built using React Native. The app provides a smooth and responsive experience for browsing food items, searching, and viewing details.
 
-##  Features
+## Features
 
 - Browse food items
 - Search functionality
@@ -20,33 +20,35 @@ A modern and user-friendly food delivery mobile application built using React Na
 
 ## Screenshots
 
-###  Recipe Screen
+### Recipe Screen
 ![Recipe](./Recipe.jpg)
 
-###  Search Screen
+### Search Screen
 ![search](./search.jpg)
 
-###  Details Screen
+### Details Screen
 ![Details](./Details.jpg)
 ![Details 2](./Details2.jpg)
 
-###  Category Screen
+### Category Screen
 ![Category](./Category.jpg)
 
-###  Filters
+### Filters
 ![Filters](./Filters.jpg)
 
-###  Modal
+### Modal
 ![Modal](./Modal.jpg)
 
-##  Run Locally
+## 🚀 Run Locally
 
 ```bash
 npm install
 npm start
 npm run android
 
-##  Author
+```
+## Author
 
-Prathamesh Gawali  
+Prathamesh Gawali
 GitHub: https://github.com/Prathameshgawali2004
+
